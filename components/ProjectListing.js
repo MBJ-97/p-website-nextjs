@@ -25,6 +25,7 @@ export default function ProjectListing() {
     <>
       {PROJECTS.map((i) => (
         <ProjectItem
+          key={i}
           name={i.name}
           description={i.description}
           techs={i.technologies}

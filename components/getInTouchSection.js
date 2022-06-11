@@ -4,7 +4,7 @@ export default function getInTouchSection() {
   return (
     <div className="mb-32">
       <h2 className="text-2xl md:text-4xl font-semibold my-10">
-        Let's get in touch!
+        Let\'s get in touch!
       </h2>
       <form
         action="https://formsubmit.co/9b892c13c562fecdcb79ae29467a769f"

@@ -15,7 +15,10 @@ export default function ProjectItem({ name, description, techs, image }) {
           {/* here comes a map */}
           <div className="flex space-x-2 mb-4 mt-2">
             {techs.map((i) => (
-              <div className="h-8 rounded-full bg-gradient-to-r from-accent via-blue to-purple p-1">
+              <div
+                key={i}
+                className="h-8 rounded-full bg-gradient-to-r from-accent via-blue to-purple p-1"
+              >
                 <div className="w-full bg-white dark:bg-black rounded-full text-xs py-1 px-2">
                   {i}
                 </div>
