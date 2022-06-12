@@ -30,6 +30,7 @@ export default function ProjectListing() {
           description={i.description}
           techs={i.technologies}
           image={i.image}
+          url={i.url}
         />
       ))}
     </>

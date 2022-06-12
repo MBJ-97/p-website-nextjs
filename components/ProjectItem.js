@@ -3,7 +3,7 @@ import Image from "next/image";
 import myPhoto from "../public/images/project.png";
 import Button from "./Button";
 
-export default function ProjectItem({ name, description, techs, image }) {
+export default function ProjectItem({ name, description, techs, image, url }) {
   return (
     <>
       <div className="md:flex items-center mb-10">
@@ -27,7 +27,7 @@ export default function ProjectItem({ name, description, techs, image }) {
           </div>
           <p>{description}</p>
           <Button
-            href="lol"
+            href={url}
             additionalStyle="w-full md:w-1/3 mt-7"
             bgColor="bg-accent"
             txtColor="text-white"
