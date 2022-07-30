@@ -79,6 +79,7 @@ export default function SkillsSection() {
                   src={`/images/skills/${i.image}.png`}
                   width={i.width}
                   height={i.height}
+                  priority={true}
                 />
                 <p>{i.name}</p>
               </div>

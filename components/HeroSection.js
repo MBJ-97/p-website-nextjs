@@ -29,6 +29,7 @@ export default function HeroSection() {
             height="100%"
             layout="responsive"
             objectFit="contain"
+            priority={true}
           />
         </div>
       </div>
