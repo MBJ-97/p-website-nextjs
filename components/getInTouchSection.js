@@ -12,7 +12,7 @@ export default function getInTouchSection() {
         className="w-full md:w-1/2 mx-auto"
       >
         <div className="field flex flex-col mb-8">
-          <label htmlFor="fullname" className="mb-4">
+          <label htmlFor="fullname" className="mb-2">
             Fullname
           </label>
           <input
@@ -23,7 +23,7 @@ export default function getInTouchSection() {
           />
         </div>
         <div className="field flex flex-col mb-8">
-          <label htmlFor="email" className="mb-4">
+          <label htmlFor="email" className="mb-2">
             Email
           </label>
           <input
@@ -34,7 +34,7 @@ export default function getInTouchSection() {
           />
         </div>
         <div className="field flex flex-col mb-8">
-          <label htmlFor="help" className="mb-4">
+          <label htmlFor="help" className="mb-2">
             How can I help you ?
           </label>
           <textarea
