@@ -53,14 +53,13 @@ function Navbar() {
                     href="https://blog.mahdibeldjoudi.xyz/"
                     target="_blank"
                     rel="noreferrer"
-                    className="font-semibold"
                   >
                     <span>Blog</span>
                   </a>
                 </li>
                 <li>
                   <Link href="#projects">
-                    <a className="font-semibold">
+                    <a>
                       <span>Projects</span>
                     </a>
                   </Link>
