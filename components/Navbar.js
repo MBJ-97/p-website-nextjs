@@ -9,6 +9,7 @@ import {
   faSun,
   faXmark,
 } from "@fortawesome/free-solid-svg-icons";
+import { FaBeer } from "react-icons/fa";
 import blackLogo from "../public/images/blackLogo.png";
 import whiteLogo from "../public/images/whiteLogo.png";
 import Button from "./Button";
@@ -92,10 +93,11 @@ function Navbar() {
               </ul>
             </div>
           </div>
+          {/* responsive nav */}
           <div className="CTAs flex items-center sm:hidden">
             <button
               className={
-                "mr-3 py-3 px-4 transition duration-200 rounded-xl " +
+                "mr-3 py-3 px-4 transition duration-200 rounded " +
                 (theme === "dark"
                   ? "bg-white text-black"
                   : "bg-black text-white")
@@ -110,7 +112,7 @@ function Navbar() {
             </button>
             <button
               className={
-                "py-3 px-4 transition duration-200 rounded-xl " +
+                "py-3 px-4 transition duration-200 " +
                 (theme === "dark" ? "text-white" : "text-black")
               }
               onClick={() => setIsOpen(!isOpen)}
