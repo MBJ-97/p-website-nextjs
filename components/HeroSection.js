@@ -1,6 +1,7 @@
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
+import Button from "./Button";
 import myPhoto from "../public/images/minified.png";
 
 export default function HeroSection() {
@@ -11,7 +12,7 @@ export default function HeroSection() {
           <h1 className="text-3xl md:text-4xl font-semibold mb-8">
             I merge marketing && web developement to create experiences
           </h1>
-          <p>
+          <p className="mb-8">
             Hey there! I am Mahdi. A passionate marketer and an even more
             passionate web developer. <br /> I like blending marketing, UI/UX
             design and code to create websites and products that speak to your
@@ -21,6 +22,14 @@ export default function HeroSection() {
               <a className="underline">You can check my blog.</a>
             </Link>
           </p>
+          <div className="w-full md:w-3/4 transition ease-in-out delay-250 hover:translate-x-2 hover:drop-shadow-xl">
+            <Button
+              href="#get_in_touch"
+              bgColor=" bg-accent"
+              txtColor=" text-white"
+              text="Get a quote"
+            />
+          </div>
         </div>
         <div className="image w-full mt-8 md:mt-0 md:w-1/2">
           <Image

@@ -3,7 +3,10 @@ import React from "react";
 export default function getInTouchSection() {
   return (
     <div className="mb-32">
-      <h2 className="text-2xl md:text-4xl font-semibold my-10">
+      <h2
+        className="text-2xl md:text-4xl font-semibold my-10"
+        id="get_in_touch"
+      >
         Let&apos;s get in touch!
       </h2>
       <form
@@ -47,9 +50,9 @@ export default function getInTouchSection() {
         </div>
         <button
           type="submit"
-          className="w-full md:w-1/3 cursor-pointer py-4 px-6 text-center bg-accent text-white"
+          className="transition ease-in-out delay-250 hover:translate-y-2 hover:drop-shadow-xl  w-full md:w-full cursor-pointer py-4 px-6 text-center bg-accent text-white"
         >
-          ✈️ Send
+          ✈️ Get Your Free Consultation
         </button>
       </form>
     </div>

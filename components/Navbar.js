@@ -9,7 +9,6 @@ import {
   faSun,
   faXmark,
 } from "@fortawesome/free-solid-svg-icons";
-import { FaBeer } from "react-icons/fa";
 import blackLogo from "../public/images/blackLogo.png";
 import whiteLogo from "../public/images/whiteLogo.png";
 import Button from "./Button";
