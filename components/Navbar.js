@@ -97,6 +97,19 @@ function Navbar() {
           <div className="CTAs flex items-center sm:hidden">
             <button
               className={
+                "py-3 px-4 transition duration-200 " +
+                (theme === "dark" ? "text-white" : "text-black")
+              }
+              onClick={() => setIsOpen(!isOpen)}
+            >
+              {!isOpen ? (
+                <FontAwesomeIcon icon={faBars} size="2x" />
+              ) : (
+                <FontAwesomeIcon icon={faXmark} size="2x" />
+              )}
+            </button>
+            <button
+              className={
                 "mr-3 py-3 px-4 transition duration-200 rounded " +
                 (theme === "dark"
                   ? "bg-white text-black"
@@ -108,19 +121,6 @@ function Navbar() {
                 <FontAwesomeIcon icon={faSun} />
               ) : (
                 <FontAwesomeIcon icon={faMoon} />
-              )}
-            </button>
-            <button
-              className={
-                "py-3 px-4 transition duration-200 " +
-                (theme === "dark" ? "text-white" : "text-black")
-              }
-              onClick={() => setIsOpen(!isOpen)}
-            >
-              {!isOpen ? (
-                <FontAwesomeIcon icon={faBars} size="2x" />
-              ) : (
-                <FontAwesomeIcon icon={faXmark} size="2x" />
               )}
             </button>
           </div>
