@@ -13,7 +13,7 @@ export default function Button({
     <Link href={href} as={as}>
       <a onClick={ClickHandler}>
         <div
-          className={`${additionalStyle} ${bgColor} ${txtColor} cursor-pointer py-4 px-6 text-center`}
+          className={`${additionalStyle} ${bgColor} ${txtColor} cursor-pointer py-4 px-6 text-center rounded`}
         >
           {text}
         </div>
