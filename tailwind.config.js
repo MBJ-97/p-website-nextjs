@@ -26,7 +26,7 @@ module.exports = {
           "100%": { opacity: 1, transform: "translateY(0px)" },
         },
         firstLoadText: {
-          "0%": { opacity: 0, transform: "translateX(-30px)" },
+          "0%": { opacity: 0, transform: "translateX(-10px)" },
           "50%": { opacity: 0.5 },
           "100%": { opacity: 1, transform: "translateX(0px)" },
         },
