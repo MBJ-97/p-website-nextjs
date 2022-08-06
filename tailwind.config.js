@@ -20,9 +20,21 @@ module.exports = {
           "0%, 100%": { transform: "translateX(-10px)" },
           "50%": { transform: "translateX(10px)" },
         },
+        firstLoadImage: {
+          "0%": { opacity: 0, transform: "translateY(-30px)" },
+          "50%": { opacity: 0.5 },
+          "100%": { opacity: 1, transform: "translateY(0px)" },
+        },
+        firstLoadText: {
+          "0%": { opacity: 0, transform: "translateX(-30px)" },
+          "50%": { opacity: 0.5 },
+          "100%": { opacity: 1, transform: "translateX(0px)" },
+        },
       },
       animation: {
         bouncy: "bouncy 3s ease-in-out infinite",
+        imageLoad: "firstLoadImage 1.5s ease-in",
+        textLoad: "firstLoadText 1.5s ease-in",
       },
     },
   },

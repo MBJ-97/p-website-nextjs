@@ -50,7 +50,7 @@ export default function getInTouchSection() {
         </div>
         <button
           type="submit"
-          className="transition ease-in-out delay-250 hover:translate-y-2 hover:drop-shadow-xl rounded w-full md:w-full cursor-pointer py-4 px-6 text-center bg-accent text-white"
+          className="transition ease-in-out delay-250 hover:translate-x-2 hover:drop-shadow-xl rounded w-full md:w-full cursor-pointer py-4 px-6 text-center bg-accent text-white"
         >
           ✈️ Get Your Free Consultation
         </button>

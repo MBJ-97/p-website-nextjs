@@ -28,7 +28,7 @@ export default function ProjectItem({ name, description, techs, image, url }) {
           <p>{description}</p>
           <Button
             href={url}
-            additionalStyle="w-full md:w-1/3 mt-7"
+            additionalStyle="w-full md:w-1/3 mt-7 transition ease-in-out delay-250 hover:translate-x-2"
             bgColor="bg-accent"
             txtColor="text-white"
             text="🌏 Check it"

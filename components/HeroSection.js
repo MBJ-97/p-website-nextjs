@@ -8,7 +8,7 @@ export default function HeroSection() {
   return (
     <div className="mb-20">
       <div className="md:flex mb-10">
-        <div className="text pt-8 w-full md:w-1/2">
+        <div className="text pt-8 w-full md:w-1/2 animate-textLoad">
           <h1 className="text-3xl md:text-4xl font-semibold mb-8">
             I merge marketing && web developement to create experiences
           </h1>
@@ -31,7 +31,7 @@ export default function HeroSection() {
             />
           </div>
         </div>
-        <div className="image w-full mt-8 md:mt-0 md:w-1/2">
+        <div className="image w-full mt-8 md:mt-0 md:w-1/2 animate-imageLoad">
           <Image
             src={myPhoto}
             width="100%"
