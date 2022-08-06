@@ -34,7 +34,7 @@ module.exports = {
       animation: {
         bouncy: "bouncy 3s ease-in-out infinite",
         imageLoad: "firstLoadImage 1.5s ease-in",
-        textLoad: "firstLoadText 1.5s ease-in",
+        textLoad: "firstLoadText 1.8s ease-in",
       },
     },
   },
