@@ -6,7 +6,7 @@ export default function ProjectListing() {
     {
       name: "Vectorz",
       image: "vectorz.png",
-      technologies: ["UI/UX Design", "Web developement", "NextJS", "Tailwind"],
+      technologies: ["Web Design", "NextJS", "Tailwind"],
       description:
         "Vectorz is a logistics company. We had the chance to make their website from design to deployment. Simple and fast website those are the requirements of our clients. Check it we would like to have your thoughts on it !",
       url: "https://vectorz-dz.com/",

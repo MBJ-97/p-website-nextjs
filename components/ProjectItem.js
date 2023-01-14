@@ -8,7 +8,7 @@ export default function ProjectItem({ name, description, techs, image, url }) {
     <>
       <div className="md:flex items-center mb-10">
         <div className="project-image px-3 md:px-0 w-full md:w-1/3 mr-4">
-          <Image src={`/images/projects/${image}`} width={350} height={250} />
+          <Image src={`/images/projects/${image}`} width={425} height={250} />
         </div>
         <div className="project-details w-full md:w-2/3 flex flex-col text-left">
           <h3 className="text-2xl font-medium">{name}</h3>
