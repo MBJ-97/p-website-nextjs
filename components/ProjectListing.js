@@ -4,21 +4,12 @@ import ProjectItem from "./ProjectItem";
 export default function ProjectListing() {
   const PROJECTS = [
     {
-      name: "Personal Website",
-      image: "personal_site.png",
-      technologies: ["NextJS", "Tailwind"],
+      name: "Vectorz",
+      image: "vectorz.png",
+      technologies: ["UI/UX Design", "Web developement", "NextJS", "Tailwind"],
       description:
-        "This is my personal website that I made from the design to the code, using figma and modern frontend technologies mentioned above.",
-      url: "https://mahdibeldjoudi.xyz/",
-    },
-
-    {
-      name: "Personal Blog",
-      image: "personal_blog.png",
-      technologies: ["NextJS", "Tailwind", "Sanity"],
-      description:
-        "For the perpose of sharing my journey and to ace my communication skills I decided to start blogging. Using the same design spirit as my personal website I made this JAMstack website from the ground.",
-      url: "https://blog.mahdibeldjoudi.xyz/",
+        "Vectorz is a logistics company. We had the chance to make their website from design to deployment. Simple and fast website those are the requirements of our clients. Check it we would like to have your thoughts on it !",
+      url: "https://vectorz-dz.com/",
     },
   ];
   return (
